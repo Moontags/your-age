@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to bottom, rgb(45, 60, 63), rgb(215, 209, 209), 55%, rgb(57, 61, 62));
+    min-height: 100vh;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+
+     min-height: 100px;
+     width: 520px;
+     margin: 100px auto;
+     border-radius: 12px;
+     height: auto;
+
+}
+
+.base {
+
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    float: none;
+
+}
+
+.base h4 {
+
+    font-size: 62px;
+    text-align: center;
+    text-shadow: 0px 2px 2px #000000;
+    font-family: sans-serif;
+    margin-top: 2rem;
+    font-weight: normal;
+    color: rgb(222, 222, 228);
+    padding: 10px;
+    border: 1px solid;
+    border-bottom-style: none;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-style: none;
+
+
+}
+
+.block{
+
+    width: 135px;
+    padding: 5px 10px;
+    margin-left: 18px;
+    display: inline-block;
+    float: none;
+
+}
+
+.title {
+
+    font-size: 42px;
+    font-family: sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #eeeff2;
+    word-spacing: 2.7px;
+    border: 1px solid;
+    border-style: none;
+    border-radius: 6px;
+    text-align: center;
+    text-shadow: 0px 1px 1px #000000;
+    
+
+
+}
+
+input[type=text]{
+    width: 140px;
+    margin: auto;
+    outline: none;
+    min-height: 32px;
+    border: 2px solid ;
+    border-radius: 6px;
+    border-style: none;
+    font-size: 28px;
+    padding: 12px;
+    text-align: center;
+    background: linear-gradient(to left, rgb(45, 60, 63), rgb(203, 198, 198), rgb(57, 61, 62));;
+}
+
+input[type=text]:focus{
+    background: #ebe6e6;
+    border: 2px solid;
+    border-radius: 2rem;
+   
+}
+
+input[type=button]{
+    width: 150px;
+    margin-left: 35%;
+    margin-top: 78px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(to left, rgb(45, 60, 63), rgb(166, 155, 155), rgb(57, 61, 62));
+    padding: 14px 16px;
+    color: white;
+    font-size: 26px;
+}
+
+input[type=button]:hover{
+    background-color: #8d99a4;
+    text-shadow: 0px 2px 2px #000000;
+
+
+}
+
+.calculateAge {
+   display: flex;
+   align-items: center;
+   margin: 10px;
+   margin-top: 3rem;
+   padding-bottom: 20px;
+   overflow: hidden;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 44px;
+   font-weight: normal;
+   line-height: 1.5;
+   word-spacing: 2.7px;
+   color: rgb(219, 219, 225);
+   text-shadow: 0px 2px 2px #000000;
+   padding: 10px;
+   text-align: center;
+   
+}
